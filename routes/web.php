@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/DemoWebVTT_test_input', function () {
+    return view('DemoWebVTT_test_input');
+});
+
 Route::get('/DemoVideo', function () {
     return view('DemoVideo');
 });
